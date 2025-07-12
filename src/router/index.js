@@ -16,6 +16,16 @@ const router = createRouter({
       path: '/employees/:id',
       name: 'employee-inner',
       component: () => import('../views/EmployeesInner.vue')
+    },
+    {
+      path: '/documents',
+      name: 'documents',
+      component: () => import('../views/Documents.vue')
+    },
+    {
+      path: '/documents/:id',
+      name: 'document-inner',
+      component: () => import('../views/DocumentsInner.vue')
     }
   ]
 })

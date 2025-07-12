@@ -14,4 +14,11 @@ export default {
   getEmployee(id) {
     return apiClient.get(`/employees/${id}`);
   },
+  getDocuments(page = 1, limit = 10, employeeId = null) {
+    let url = `/documents?_page=${page}&_limit=${limit}&_expand=employee`;
+    if (employeeId) {
+      url += `&employeeId=${employeeId}`;
+    }
+    return apiClient.get(url);
+  },
 };

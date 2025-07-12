@@ -181,5 +181,236 @@
       "status": false
     }
   ],
-  "documents": []
+  "documents": [
+    {
+      "id": 1,
+      "type": "счет-фактура",
+      "number": "SF-001",
+      "date": "2023-10-26",
+      "description": "Счет-фактура за поставку канцтоваров",
+      "invoiceType": "Стандартная",
+      "proxyFullName": null,
+      "employeeId": 1
+    },
+    {
+      "id": 2,
+      "type": "доверенность",
+      "number": "DOV-001",
+      "date": "2023-10-25",
+      "description": "Доверенность на получение ТМЦ",
+      "invoiceType": null,
+      "proxyFullName": "Кузнецов Олег Викторович",
+      "employeeId": 1
+    },
+    {
+      "id": 3,
+      "type": "счет-фактура",
+      "number": "SF-002",
+      "date": "2023-10-27",
+      "description": "Оплата услуг связи",
+      "invoiceType": "Дополнительная",
+      "proxyFullName": null,
+      "employeeId": 2
+    },
+    {
+    "id": 4,
+    "type": "счет-фактура",
+    "number": "SF-003",
+    "date": "2023-10-28",
+    "description": "Поставка бумаги для офиса",
+    "invoiceType": "Стандартная",
+    "proxyFullName": null,
+    "employeeId": 3
+    },
+    {
+      "id": 5,
+      "type": "доверенность",
+      "number": "DOV-002",
+      "date": "2023-10-29",
+      "description": "Получение почтовых отправлений",
+      "invoiceType": null,
+      "proxyFullName": "Иванова Мария Сергеевна",
+      "employeeId": 2
+    },
+    {
+      "id": 6,
+      "type": "счет-фактура",
+      "number": "SF-004",
+      "date": "2023-11-01",
+      "description": "Поставка мебели",
+      "invoiceType": "Дополнительная",
+      "proxyFullName": null,
+      "employeeId": 4
+    },
+    {
+      "id": 7,
+      "type": "доверенность",
+      "number": "DOV-003",
+      "date": "2023-11-02",
+      "description": "Представление интересов в банке",
+      "invoiceType": null,
+      "proxyFullName": "Петров Алексей Дмитриевич",
+      "employeeId": 1
+    },
+    {
+      "id": 8,
+      "type": "счет-фактура",
+      "number": "SF-005",
+      "date": "2023-11-03",
+      "description": "Поставка компьютерной техники",
+      "invoiceType": "Стандартная",
+      "proxyFullName": null,
+      "employeeId": 2
+    },
+    {
+      "id": 9,
+      "type": "доверенность",
+      "number": "DOV-004",
+      "date": "2023-11-04",
+      "description": "Получение документов в налоговой",
+      "invoiceType": null,
+      "proxyFullName": "Сидоров Николай Иванович",
+      "employeeId": 3
+    },
+    {
+      "id": 10,
+      "type": "счет-фактура",
+      "number": "SF-006",
+      "date": "2023-11-05",
+      "description": "Оплата аренды офиса",
+      "invoiceType": "Дополнительная",
+      "proxyFullName": null,
+      "employeeId": 4
+    },
+    {
+      "id": 11,
+      "type": "счет-фактура",
+      "number": "SF-007",
+      "date": "2023-11-06",
+      "description": "Поставка воды и напитков",
+      "invoiceType": "Стандартная",
+      "proxyFullName": null,
+      "employeeId": 1
+    },
+    {
+      "id": 12,
+      "type": "доверенность",
+      "number": "DOV-005",
+      "date": "2023-11-07",
+      "description": "Представление интересов в суде",
+      "invoiceType": null,
+      "proxyFullName": "Орлова Елена Михайловна",
+      "employeeId": 2
+    },
+    {
+      "id": 13,
+      "type": "счет-фактура",
+      "number": "SF-008",
+      "date": "2023-11-08",
+      "description": "Услуги транспорта",
+      "invoiceType": "Дополнительная",
+      "proxyFullName": null,
+      "employeeId": 3
+    },
+    {
+      "id": 14,
+      "type": "доверенность",
+      "number": "DOV-006",
+      "date": "2023-11-09",
+      "description": "Получение печатей",
+      "invoiceType": null,
+      "proxyFullName": "Григорьев Артем Павлович",
+      "employeeId": 4
+    },
+    {
+      "id": 15,
+      "type": "счет-фактура",
+      "number": "SF-009",
+      "date": "2023-11-10",
+      "description": "Оплата программного обеспечения",
+      "invoiceType": "Стандартная",
+      "proxyFullName": null,
+      "employeeId": 2
+    },
+    {
+      "id": 16,
+      "type": "доверенность",
+      "number": "DOV-007",
+      "date": "2023-11-11",
+      "description": "Получение материалов со склада",
+      "invoiceType": null,
+      "proxyFullName": "Захаров Дмитрий Сергеевич",
+      "employeeId": 1
+    },
+    {
+      "id": 17,
+      "type": "счет-фактура",
+      "number": "SF-010",
+      "date": "2023-11-12",
+      "description": "Поставка оборудования",
+      "invoiceType": "Дополнительная",
+      "proxyFullName": null,
+      "employeeId": 3
+    },
+    {
+      "id": 18,
+      "type": "доверенность",
+      "number": "DOV-008",
+      "date": "2023-11-13",
+      "description": "Получение ТМЦ у подрядчика",
+      "invoiceType": null,
+      "proxyFullName": "Смирнова Татьяна Викторовна",
+      "employeeId": 4
+    },
+    {
+      "id": 19,
+      "type": "счет-фактура",
+      "number": "SF-011",
+      "date": "2023-11-14",
+      "description": "Услуги по ремонту",
+      "invoiceType": "Стандартная",
+      "proxyFullName": null,
+      "employeeId": 2
+    },
+    {
+      "id": 20,
+      "type": "доверенность",
+      "number": "DOV-009",
+      "date": "2023-11-15",
+      "description": "Доверенность на получение оборудования",
+      "invoiceType": null,
+      "proxyFullName": "Лебедев Роман Алексеевич",
+      "employeeId": 1
+    },
+    {
+      "id": 21,
+      "type": "счет-фактура",
+      "number": "SF-012",
+      "date": "2023-11-16",
+      "description": "Оплата хостинга",
+      "invoiceType": "Дополнительная",
+      "proxyFullName": null,
+      "employeeId": 3
+    },
+    {
+      "id": 22,
+      "type": "доверенность",
+      "number": "DOV-010",
+      "date": "2023-11-17",
+      "description": "Получение технической документации",
+      "invoiceType": null,
+      "proxyFullName": "Ковалев Андрей Владимирович",
+      "employeeId": 4
+    },
+    {
+      "id": 23,
+      "type": "счет-фактура",
+      "number": "SF-013",
+      "date": "2023-11-18",
+      "description": "Услуги связи",
+      "invoiceType": "Стандартная",
+      "proxyFullName": null,
+      "employeeId": 1
+    }
+  ]
 }
