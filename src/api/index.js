@@ -8,6 +8,9 @@ const apiClient = axios.create({
 });
 
 export default {
+  getProfile() {
+    return apiClient.get('/profile');
+  },
   getEmployees(page = 1, limit = 10) {
     return apiClient.get(`/employees?_page=${page}&_limit=${limit}`);
   },

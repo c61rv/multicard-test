@@ -5,17 +5,17 @@
       <v-toolbar-title>{{ route.meta.title ? route.meta.title : ''  }}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-menu offset-y>
-        <template v-slot:activator="{ props }">
+        <template v-slot:activator="{ props }" v-if="userProfile">
           <v-btn v-bind="props" text class="px-2">
             <v-avatar size="36">
               <v-img
-                  src="./img/user.svg"
-                  alt="Сабиров Мансур"
+                  :src="userProfile.img"
+                  :alt="userProfile.username"
               ></v-img>
             </v-avatar>
             <div class="d-none d-sm-flex flex-column align-start ml-2">
-              <span class="text-body-2 font-weight-bold">Сабиров Мансур</span>
-              <span class="text-caption">Администратор</span>
+              <span class="text-body-2 font-weight-bold">{{ userProfile.username }}</span>
+              <span class="text-caption">{{ userProfile.role }}</span>
             </div>
           </v-btn>
         </template>
@@ -65,6 +65,9 @@
 <script setup>
 import { ref } from 'vue';
 import { useRoute } from 'vue-router'
+import { onMounted } from 'vue';
+import { useProfileStore } from '@/stores/profile';
+import { storeToRefs } from 'pinia';
 
 const route = useRoute()
 const drawer = ref(true);
@@ -73,8 +76,13 @@ const menuItems = ref([
   { title: 'Документы', icon: 'mdi-text-box-multiple', to: '/documents' },
   { title: 'Профиль', icon: 'mdi-account-circle', to: '/profile' },
 ]);
-
+const profileStore = useProfileStore();
+const { userProfile } = storeToRefs(profileStore);
 const logout = () => {
   alert('Выход из системы...');
 };
+
+onMounted(() => {
+  profileStore.fetchProfile();
+});
 </script>

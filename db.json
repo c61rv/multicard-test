@@ -1,4 +1,12 @@
 {
+  "profile": {
+    "id": 1,
+    "username": "Сабиров Мансур",
+    "img": "./img/user.svg",
+    "email": "mansur.sabirov99@gmail.com",
+    "role": "Администратор",
+    "registrationDate": "17.08.1999"
+  },
   "employees": [
     {
       "id": 1,

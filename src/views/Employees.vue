@@ -37,7 +37,7 @@ const { employees, totalEmployees, loading } = storeToRefs(employeesStore);
 
 const headers = [
   { title: 'ID', value: 'id' },
-  { title: 'Ф.И.О', value: 'fullName', key: 'fullName' },
+  { title: 'Ф.И.О', value: 'fullName' },
   { title: 'Дата рождения', value: 'birthDate' },
   { title: 'Пол', value: 'gender' },
   { title: 'Паспорт', value: 'passport' },
