@@ -2,7 +2,7 @@
   <v-container>
     <v-btn class="mb-4" @click="router.back()">
       <v-icon start>mdi-arrow-left</v-icon>
-      Назад к списку
+      Назад
     </v-btn>
 
     <v-card v-if="currentDocument && !loading" :loading="loading">
