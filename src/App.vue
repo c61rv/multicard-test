@@ -43,12 +43,14 @@
             v-for="item in menuItems"
             :key="item.title"
             :to="item.to"
-            link
+            :exact="item.exact ?? true"
+        link
         >
-          <template v-slot:prepend>
-            <v-icon>{{ item.icon }}</v-icon>
-          </template>
-          <v-list-item-title>{{ item.title }}</v-list-item-title>
+        <template v-slot:prepend>
+          <v-icon>{{ item.icon }}</v-icon>
+        </template>
+
+        <v-list-item-title>{{ item.title }}</v-list-item-title>
         </v-list-item>
       </v-list>
     </v-navigation-drawer>
@@ -65,7 +67,7 @@
 import { ref } from 'vue';
 const drawer = ref(true);
 const menuItems = ref([
-  { title: 'Сотрудники', icon: 'mdi-account-group', to: '/' },
+  { title: 'Сотрудники', icon: 'mdi-account-group', to: '/employees' },
   { title: 'Документы', icon: 'mdi-text-box-multiple', to: '/documents' },
   { title: 'Профиль', icon: 'mdi-account-circle', to: '/profile' },
 ]);

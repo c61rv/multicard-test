@@ -35,5 +35,16 @@ export const useEmployeesStore = defineStore('employees', {
         this.loading = false;
       }
     },
+    async fetchEmployeeById(id) {
+      this.loading = true;
+      try {
+        const response = await api.getEmployee(id);
+        this.currentEmployee = response.data;
+      } catch (error) {
+        console.error(`Ошибка при загрузке сотрудника ${id}:`, error);
+      } finally {
+        this.loading = false;
+      }
+    },
   },
 });

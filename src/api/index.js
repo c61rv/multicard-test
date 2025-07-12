@@ -11,4 +11,7 @@ export default {
   getEmployees(page = 1, limit = 10) {
     return apiClient.get(`/employees?_page=${page}&_limit=${limit}`);
   },
+  getEmployee(id) {
+    return apiClient.get(`/employees/${id}`);
+  },
 };
