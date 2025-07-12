@@ -21,4 +21,7 @@ export default {
     }
     return apiClient.get(url);
   },
+  getDocument(id) {
+    return apiClient.get(`/documents/${id}?_expand=employee`);
+  }
 };

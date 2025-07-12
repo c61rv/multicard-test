@@ -21,5 +21,16 @@ export const useDocumentsStore = defineStore('documents', {
         this.loading = false;
       }
     },
+    async fetchDocumentById(id) {
+      this.loading = true;
+      try {
+        const response = await api.getDocument(id);
+        this.currentDocument = response.data;
+      } catch (error) {
+        console.error(`Ошибка при загрузке документа ${id}:`, error);
+      } finally {
+        this.loading = false;
+      }
+    },
   },
 });
