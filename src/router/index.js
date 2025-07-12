@@ -11,21 +11,25 @@ const router = createRouter({
       path: '/employees',
       name: 'employees',
       component: () => import('../views/Employees.vue'),
+      meta: { title: 'Сотрудники' }
     },
     {
       path: '/employees/:id',
       name: 'employee-inner',
-      component: () => import('../views/EmployeesInner.vue')
+      component: () => import('../views/EmployeesInner.vue'),
+      meta: { title: 'Информация сотрудника' }
     },
     {
       path: '/documents',
       name: 'documents',
-      component: () => import('../views/Documents.vue')
+      component: () => import('../views/Documents.vue'),
+      meta: { title: 'Документы' }
     },
     {
       path: '/documents/:id',
       name: 'document-inner',
-      component: () => import('../views/DocumentsInner.vue')
+      component: () => import('../views/DocumentsInner.vue'),
+      meta: { title: 'Информация документа' }
     }
   ]
 })

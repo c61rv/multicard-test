@@ -2,7 +2,7 @@
   <v-app>
     <v-app-bar app color="primary" dark>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
-      <v-toolbar-title>Главная</v-toolbar-title>
+      <v-toolbar-title>{{ route.meta.title ? route.meta.title : ''  }}</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-menu offset-y>
         <template v-slot:activator="{ props }">
@@ -65,6 +65,9 @@
 
 <script setup>
 import { ref } from 'vue';
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
 const drawer = ref(true);
 const menuItems = ref([
   { title: 'Сотрудники', icon: 'mdi-account-group', to: '/employees' },
