@@ -1,4 +1,185 @@
 {
-  "employees": [],
+  "employees": [
+    {
+      "id": 1,
+      "firstName": "Сабиров",
+      "lastName": "Мансур",
+      "birthDate": "17.08.1999",
+      "passport": "AB1234567",
+      "gender": "Мужской",
+      "status": true
+    },
+    {
+      "id": 2,
+      "firstName": "Иванова",
+      "lastName": "Екатерина",
+      "birthDate": "12.03.1995",
+      "passport": "AC9876543",
+      "gender": "Женский",
+      "status": false
+    },
+    {
+      "id": 3,
+      "firstName": "Ахмедов",
+      "lastName": "Рустам",
+      "birthDate": "04.07.1988",
+      "passport": "AN4567890",
+      "gender": "Мужской",
+      "status": true
+    },
+    {
+      "id": 4,
+      "firstName": "Мирзаева",
+      "lastName": "Нигина",
+      "birthDate": "25.11.2000",
+      "passport": "AZ1122334",
+      "gender": "Женский",
+      "status": true
+    },
+    {
+      "id": 5,
+      "firstName": "Каримов",
+      "lastName": "Джавохир",
+      "birthDate": "30.05.1992",
+      "passport": "AA5566778",
+      "gender": "Мужской",
+      "status": false
+    },
+    {
+      "id": 6,
+      "firstName": "Шарипова",
+      "lastName": "Гульнара",
+      "birthDate": "09.01.1985",
+      "passport": "BC6655443",
+      "gender": "Женский",
+      "status": true
+    },
+    {
+      "id": 7,
+      "firstName": "Нуров",
+      "lastName": "Азиз",
+      "birthDate": "18.06.1990",
+      "passport": "BN3344556",
+      "gender": "Мужской",
+      "status": true
+    },
+    {
+      "id": 8,
+      "firstName": "Юлдашева",
+      "lastName": "Мадина",
+      "birthDate": "02.02.1998",
+      "passport": "AK7788991",
+      "gender": "Женский",
+      "status": false
+    },
+    {
+      "id": 9,
+      "firstName": "Рахматов",
+      "lastName": "Дониёр",
+      "birthDate": "11.10.1993",
+      "passport": "BA1239874",
+      "gender": "Мужской",
+      "status": true
+    },
+    {
+      "id": 10,
+      "firstName": "Турсунова",
+      "lastName": "Зулайхо",
+      "birthDate": "14.04.1996",
+      "passport": "AF3456723",
+      "gender": "Женский",
+      "status": true
+    },
+    {
+      "id": 11,
+      "firstName": "Насриддинов",
+      "lastName": "Жахонгир",
+      "birthDate": "20.12.1991",
+      "passport": "AB0099887",
+      "gender": "Мужской",
+      "status": false
+    },
+    {
+      "id": 12,
+      "firstName": "Саидова",
+      "lastName": "Лола",
+      "birthDate": "08.08.1997",
+      "passport": "AV4433221",
+      "gender": "Женский",
+      "status": true
+    },
+    {
+      "id": 13,
+      "firstName": "Бобуров",
+      "lastName": "Ислам",
+      "birthDate": "03.03.1990",
+      "passport": "AS1122445",
+      "gender": "Мужской",
+      "status": true
+    },
+    {
+      "id": 14,
+      "firstName": "Хасанова",
+      "lastName": "Севара",
+      "birthDate": "22.06.1994",
+      "passport": "AC7788123",
+      "gender": "Женский",
+      "status": false
+    },
+    {
+      "id": 15,
+      "firstName": "Юсупов",
+      "lastName": "Мухаммад",
+      "birthDate": "29.09.1987",
+      "passport": "AG1234789",
+      "gender": "Мужской",
+      "status": true
+    },
+    {
+      "id": 16,
+      "firstName": "Собирова",
+      "lastName": "Шахноза",
+      "birthDate": "01.01.2001",
+      "passport": "AT5566778",
+      "gender": "Женский",
+      "status": true
+    },
+    {
+      "id": 17,
+      "firstName": "Абдурахмонов",
+      "lastName": "Фаррух",
+      "birthDate": "16.05.1992",
+      "passport": "BD9988776",
+      "gender": "Мужской",
+      "status": false
+    },
+    {
+      "id": 18,
+      "firstName": "Жураева",
+      "lastName": "Мехринисо",
+      "birthDate": "07.07.1999",
+      "passport": "BG4455667",
+      "gender": "Женский",
+      "status": true
+    },
+    {
+      "id": 19,
+      "firstName": "Мухиддинов",
+      "lastName": "Шерзод",
+      "birthDate": "19.11.1995",
+      "passport": "BE3344556",
+      "gender": "Мужской",
+      "status": true
+    },
+    {
+      "id": 20,
+      "firstName": "Рахимова",
+      "lastName": "Азиза",
+      "birthDate": "13.03.2002",
+      "passport": "BL2233445",
+      "gender": "Женский",
+      "status": false
+    }
+  ],
   "documents": []
 }
