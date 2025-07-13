@@ -16,6 +16,12 @@ See [Vite Configuration Reference](https://vite.dev/config/).
 npm install
 ```
 
+### Starting the server
+
+```sh
+npm run api
+```
+
 ### Compile and Hot-Reload for Development
 
 ```sh
